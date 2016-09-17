@@ -44,7 +44,7 @@ app.controller('productController', function($scope,$http){
 				'Content-Type' : 'application/json'
 			}
 		}).then(function successCallback(response){
-			alert('Thank you!!');
+			alert('Thank you Kartik!!');
 			$scope.mycarts = [];
 			_refreshPageData();
 		}, function errorCallback(response){
